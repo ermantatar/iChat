@@ -7,10 +7,6 @@
 //
 
 import Foundation
-
-
-
-import Foundation
 import UIKit
 import FirebaseFirestore
 
@@ -194,3 +190,4 @@ func imageFromInitials(firstName: String?, lastName: String?, withBlock: @escapi
     
     withBlock(img!)
 }
+
